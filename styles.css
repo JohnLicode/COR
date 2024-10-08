@@ -1,0 +1,293 @@
+body {
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.new-reg-number {
+    color: red;
+}
+
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.new-certificate-header {
+    text-align: center;
+}
+
+.new-certificate-header p, h1 {
+    margin-bottom: -12px;
+}
+
+.new-certificate-header img {
+    width: 95px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    margin: 15px 0 0 -220px;
+}
+
+.new-psu-header {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+h2 {
+    letter-spacing: 10px;
+}
+
+.new-certificate-header strong {
+    margin-left: -65em;
+}
+
+#new-reg-no span {
+    color: red;
+}
+
+.new-student-gen-info-table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.new-student-gen-info-table td {
+    padding-left: 15px;
+}
+
+.new-gen-info-header {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    width: 100%;
+    line-height: 30px;
+    background-color: #c2bcff;
+}
+
+#new-age {
+    padding-left: 0;
+}
+
+#new-course-code {
+    width: 100px;
+}
+
+#new-subject-title {
+    width: 300px
+}
+
+.new-unit {
+    width: 60px;
+    text-align: center;
+}
+
+#new-section {
+    width: 130px;
+    text-align: center;
+}
+
+#new-sched-room {
+    width: 300px;
+}
+
+#new-faculty-header {
+    width: 250px;
+}
+
+.new-subject-info-table {
+    width: 100%;
+    border-top: 2px solid black;
+    border-collapse: collapse;
+}
+
+.new-subject-info-table th {
+    border-bottom: 2px solid black;
+    background-color: #c2bcff;
+}
+
+.new-subject-info-table tr td:not(:nth-child(7)):not(:nth-child(8)) {
+    padding-left: 20px;
+}
+
+.new-subject-info-table tr td:nth-child(7),
+.new-subject-info-table tr td:nth-child(8) {
+    padding-left: 30px;
+}
+
+.new-subject-info-table tr td:not(:nth-child(7)) {
+    vertical-align: top;
+}
+
+#new-total-units {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 24%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -10px;
+}
+
+
+
+
+#new-note {
+    margin-left: 20px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+.new-faculty p{
+    margin
+}
+
+.new-faculty {
+    border-bottom: 1px solid black;
+}
+
+#new-assessment-table {
+    border: 2px solid black;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+#new-assessment-table td {
+    line-height: 14px;
+}
+
+#new-assessment-table tr:not(:nth-last-child(-n+3)) td:first-child {
+    padding-right: 72px;
+}
+
+#new-assessment-table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.new-total-assessment td {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    text-align: right;
+    font-weight: bold;
+}
+
+.new-total-assessment td:nth-child(1) {
+    padding-right: 150px;
+}
+
+#new-assessment-header {
+    border-bottom: 2px solid black;
+    letter-spacing: 10px;
+    background-color:#c2bcff;
+}
+
+#new-payment-sched-table {
+    text-align: center;
+    margin-left: 20px;
+    width: 580px;
+    border-collapse: collapse;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+
+#new-payment-sched-table th {
+    letter-spacing: 5px;
+    background-color: #c2bcff;
+}
+
+#new-payment-sched-table td {
+    border: 1px solid black;
+}
+
+#new-rules-section {
+    font-family: "Courier New", sans-serif;
+    position: absolute;
+    top: 50em;
+    left: 47em;
+}
+
+#new-rules-section h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#new-rules-section li {
+    font-style: italic;
+    font-size: 16px;
+}
+
+#new-rules-section ol {
+    margin-bottom: 100px;
+}
+
+#new-rules-section p {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 3em;
+    padding-left: 1em;
+}
+
+#new-rules-section span {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+#new-or-content {
+    margin-left: 5em;
+    margin-top: 10px;
+}
+
+#new-pv-date-content {
+    margin-left: 0%;
+    margin-top: -10px;
+}
+
+
+#new-registrar-sign {
+    position: absolute;
+    top: 80em;
+    left: 48em;
+    font-weight: bold;
+}
+
+#new-registrar-sign p:nth-child(1) {
+    margin-left: 4em;
+}
+
+#new-registrar-sign p:nth-child(2) {
+    margin-left: 14em;
+    margin-top: 40px;
+}
+
+#new-registrar-sign p:nth-child(3) {
+    margin-left: 14em;
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50em;
+    
+}
+
+footer p {
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: -20px;
+}
+
+footer h5 {
+    background-color: #c2bcff;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-weight:bolder;
+}
